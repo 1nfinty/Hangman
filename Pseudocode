@@ -1,0 +1,12 @@
+Retro Hangman Pseudo code
+Generate a guess word at random
+Show the user word length in " _ "
+Set lives to 10
+Provide alphabet for user to chose letters from
+Each letter can only be guessed once per turn
+If guess is correct, display letter(s) according to letter index
+If user guesses entire word, display " You Won! "
+If guess is wrong, -1 life each time until 0
+If user lives reach 0, display " Game Over "
+To reset game click "Play again" button at anytime
+New word is generated and game starts over
