@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-image: url("../images/retrogaming.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: 'Press Start 2P', cursive;  
+    text-align:center;
+    font-size:18px;
+    
+  }
+  
+  .wrappper{
+    width:100%;
+    margin:0 auto;
+  }
+  
+  h1 {
+    font-size: 2.6em;
+    padding-top: 3%;
+    text-transform: uppercase;
+    margin: 0 auto;
+    text-transform: uppercase;
+    color: red;
+  }
+  
+  p{
+    padding-top: 3%;
+    color:red;
+    font-size: 1.6em;
+  }
+  
+  #alphabet li {
+    float:left;
+    margin: 0 10px 10px 0;
+    list-style:none;
+    width:35px;
+    height:30px;
+    padding-top:10px; 
+    color:black;   
+  }
+  
+  #my-word {
+    color:black;
+    margin: 0;
+    display: block;
+    padding: 0;
+    display:block;
+  }
+  
+  #my-word li {
+    position: relative;
+    list-style: none;
+    margin: 0;
+    display: inline-block;
+    padding: 0 10px;
+    font-size:1.6em;
+  }
+  
+  #mylives{
+    font-size:1.6em;
+    text-align:center;
+    display:block;
+  }
+  
+  button{
+    background:black;
+    color:red;
+    border: solid 1px $white;
+    text-decoration:none;
+    font-size:1.2em;
+    padding:18px 10px;
+    width:180px;
+    margin: 10px;  
+  }
+  
+  @media (max-width: 767px) {
+    #alphabet {
+    padding:0 0 0 15px;
+  }
+    }
+  
+    @media (max-width: 480px) {
+    #alphabet {
+    padding:0 0 0 25px;
+  }
+    }
